@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+
+html, body{
+    background: linear-gradient(45deg,rgb(73, 73, 235),rgb(152, 91, 231));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+main.container{
+    background: linear-gradient(45deg,black,rgb(32, 32, 32) );
+    background-repeat: no-repeat; 
+    max-width: 500px;
+    min-height: 90vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgb(54, 54, 54);
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+main h1{
+    font-weight: 500;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+    text-decoration: underline
+    
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputlogin{
+    position: relative;
+}
+
+
+.inputlogin input{
+    outline: none;
+    font-size: 0.9rem;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 6px;
+    min-height: 30px ;
+
+}
+
+form .input-name{
+    margin-bottom: 1rem;
+}
+
+form .input-email{
+    margin-bottom: 1rem;
+}
+
+form .input-cpf{
+    margin-bottom: 1rem;
+}
+
+.inputlogin input::placeholder{
+    color:black;
+
+}
+
+
+form input[type="submit"]{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, rgb(230, 230, 230), rgb(103, 252, 252));
+    cursor: pointer;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.9px;
+    background: linear-gradient(to right, rgb(230, 230, 230), rgb(103, 252, 252)); ;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem ;
+}
+
+.footer span{
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+}
+
+
+
+.footer .social-fields{
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    
+
+}
+
+
+.footer .social-fields a i{
+    margin: 0 0.5rem;
+    width: 15px;
+    
+    
+}
+
+
+
+
+.footer .social-fields a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+
+}
+
+.footer .social-field.twitter{
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    border-radius: 4px;
+    padding: 0.1rem;
+    margin-top: 1rem;
+    
+
+}
+
+
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    border-radius: 4px;
+    padding: 0.1rem;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
